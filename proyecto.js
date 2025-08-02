@@ -1,1 +1,1 @@
-console.log("Mi proyecto se ellama SENAlizate");
+console.log("Mi proyecto se llama SENALizate");
