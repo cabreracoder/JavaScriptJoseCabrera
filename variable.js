@@ -1,0 +1,10 @@
+let numero = 11;
+console.log ("El valor de la variable : " + numero);
+let nombre = "Jose Cabrera";
+let edad = "31";
+let sueldo = 7.000;
+let hijos =2;
+let masculino = true;
+let femenino = false;
+console.log("Mi nombre es: " + nombre + " ,tengo " + edad + " Años, y " + hijos + " Hijos, Con un sueldo de: " + sueldo);
+console.log("Mi genero es Masculino " + masculino + " Femenino " + femenino);
