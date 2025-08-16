@@ -1,4 +1,7 @@
 let coontraseña =prompt ("Digita tu contraseña");
 var numCaracteres = coontraseña.length;
 console.log(numCaracteres);
-alert("El numero de caracteres de tu contraseña son : " + numCaracteres);
+
+// OPERADOR TERNARIO
+
+(numCaracteres>8)?alert("Contraseña segura"):alert("Contraseña Insegura")
