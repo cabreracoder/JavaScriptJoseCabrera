@@ -8,3 +8,10 @@ let temperatura = parseInt (prompt("Ingresa la temperatura actual"));
     }else if(temperatura>=36){
         alert("la temperatura actual esta en el parametro MUY CALUROSO");
     }
+
+//OPERADOR TERNARIO
+
+(temperatura <15)?alert("la temperatura actual está en el parametro de FRIO"):
+(temperatura>=15 && temperatura<26)?alert("la temperatura actual esta en el parametro AGRADABLE"):
+(temperatura>=26 && temperatura<36)?alert("la temperatura actual esta en el parametro CALUROSO"):
+alert()
